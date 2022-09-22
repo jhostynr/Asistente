@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EstadisticasActivity">
+
+
+    <ImageView
+        android:id="@+id/regresar"
+        android:src="@drawable/atras"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="left"/>
+
+
+    <TextView
+        android:id="@+id/idInvi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"
+        android:padding="10dp"
+        android:text="Estadistica Covid-19"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/idInvi">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/idEstadistica"
+                android:layout_width="410dp"
+                android:layout_height="280dp"
+                android:layout_marginTop="0dp"
+                android:padding="10dp"
+                android:src="@drawable/hbt" />
+
+            <TextView
+                android:id="@+id/cita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Figura de estadistica de hábitos saludables, \n Centro de Nutrición Molecular y enfermedades crónicas 2022">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/estadistica"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/alimen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Alimentación:">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idDescription1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/alimentacion"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/act"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Actividad Física:">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idDescription2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/actividad"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20dp"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:text="Descanso:">
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/idDescription3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:gravity="center"
+                android:justificationMode="inter_word"
+                android:padding="5dp"
+                android:text="@string/descanso"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <ImageView
+
+                android:id="@+id/Oms"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center"
+                android:onClick="onClick"
+                android:padding="10dp"
+                android:src="@drawable/oms" />
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

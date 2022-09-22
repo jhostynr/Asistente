@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Asistente</string>
+    <string name="placeholder">Ingresa tu mensaje. </string>
+
+    <!-- Elementos del Chat -->
+    <string name="mensajedevoz"> Di algo en el micrófono. </string>
+    <string name="mensajedevoznoadmitido"> Tu teléfono no es compatible con la función de micrófono. </string>
+    <string name="audio_no_se_entiende"> No puedo entender lo que dijiste, dilo de nuevo. </string>
+    <string name="ingresa_mensaje"> Por Favor, ingresa un mensaje. </string>
+    <string name="title_activity_contenedor_instrucciones">ContenedorInstruccionesActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fciCuerpo">Modelar un procesamiento de lenguaje natural basado en Machine Learning para utilizarse de
+                            manera mas efectiva al momento de analizar el lenguaje textual, interpretando y darle
+                            significado especialmente a las terminologías de Covid-19.
+                            Puedes descargar el Documento de Antecedentes del FCI 010-2021 en el boton de PDF</string>
+
+    <string name="estadistica">En base a entrevistas realizadas hacia medicos y nutricionistas,
+                                durante la fase de contagio por SARS-CoV-2(Covid-19) los hábitos
+                                saludables han tenido gran importancia para una debida recuperación
+                                los hábitos saludables que mas destacan son: \n</string>
+
+    <string name="alimentacion">Una alimentación saludable ayudará a que la recuperación del paciente sea más rápida,
+                                contribuyendo a un mejor funcionamiento del organismo y fortaleciendo las defensas.
+                                Se recomienda una dieta frutas, hortalizas, verduras, frutos secos.
+                                Alimentos con frutas vegetales que aporten bastante fibras al cuerpo.\n</string>
+
+    <string name="actividad">El ejercicio que deberá realizar el paciente dependerá de la situación actual en el que se
+                                encuentre, y también del diagnóstico y monitoreo de su médico. Es recomendable hacer ejercicio
+                                de respiración para fortalecer los pulmones, además que el ejercicio ayudará al correcto funcionamiento
+                                del sistema inmune.\n</string>
+
+    <string name="descanso">El reposo ayuda a reducir la ansiedad, mejora el estado de ánimo y fortalece al sistema inmunológico.
+                            Dormir de 8 a 10 horas diarias para sentir que ha descansado bien.\n</string>
+
+</resources>
